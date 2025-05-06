@@ -64,7 +64,54 @@ pip install -r requirements.txt
 6. **Run the Streamlit application**:
 ```
 streamlit run app.py
+
 ```
 
 The application should open in your browser at [http://localhost:8501](http://localhost:8501).
 
+---
+
+## 🔧 Configuration
+- **API Key**: Store your Gemini API key in the .env file as GOOGLE_API_KEY.
+- **Streamlit Settings**: Optional customization via .streamlit/config.toml.
+
+---
+
+## 🧪 Usage
+
+- Launch the app with streamlit run app.py.
+- Enter your queries in the chat input.
+- View real-time responses from the Gemini model.
+- Session history is preserved during the browser session.
+
+---
+
+## 📈 Roadmap
+- [ ] Add user authentication
+- [ ] enable persistent session history
+- [ ] support mulltiple AI model options
+- [ ] Dockerize the application for deployment
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork this repository.
+2. Create a new branch: git checkout -b feature/your-feature
+3. Commit your changes: git commit -m 'Add your feature'
+4. Push the branch: git push origin feature/your-feature
+5. Submit a pull request 🚀
+
+---
+
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## 🙏 Acknowledgments
+- [Streamlit](https://streamlit.io/)
+- [Google Gemini API](https://ai.google.dev/)
+- Community tutorials and similar open-source projects for inspiration.
